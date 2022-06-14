@@ -50,4 +50,4 @@ jobs:
         app-name: 'mytg123'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_2a1dde34b5734438b5969db821fe7d9d }}
-        package: '*.jar'
+        package: '*.war'
